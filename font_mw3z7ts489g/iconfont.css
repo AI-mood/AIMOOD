@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1675543788644') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-weixin:before {
+  content: "\f0106";
+}
+
+.icon-QQ:before {
+  content: "\e882";
+}
+
+.icon-bilibili-line:before {
+  content: "\e66d";
+}
+
+
+/* 暗模式样式 */
+.dark-mode {
+  background-color: #121212; /* 暗模式背景色 */
+  color: #e0e0e0; /* 暗模式文字颜色 */
+}
+
+.dark-mode .shell,
+.dark-mode .container {
+  background-color: #1e1e1e; /* 暗模式中的容器背景色 */
+  box-shadow: 5px 5px 5px #0f0f0f, -5px -5px 5px #2b2b2b; /* 暗模式下的阴影调整 */
+}
+
+.dark-mode .form_input {
+  background-color: #262626; /* 暗模式输入框背景色 */
+  color: #e0e0e0; /* 暗模式输入框文字颜色 */
+  box-shadow: inset 2px 2px 4px #0f0f0f, inset -2px -2px 4px #3b3b3b; /* 暗模式输入框内阴影 */
+}
+
+.dark-mode .form_input:focus {
+  box-shadow: inset 4px 4px 8px #0f0f0f, inset -4px -4px 8px #3b3b3b; /* 聚焦时的暗模式输入框内阴影 */
+}
+
+.dark-mode .button,
+.dark-mode .switch_button {
+  background-color: #333333; /* 暗模式按钮背景色 */
+  color: #ffffff; /* 暗模式按钮文字颜色 */
+  box-shadow: 4px 4px 8px #0f0f0f, -4px -4px 8px #4b4b4b; /* 暗模式按钮阴影 */
+}
+
+.dark-mode .form_link {
+  color: #bbbbbb; /* 暗模式链接颜色 */
+  border-bottom: 1px solid #333333; /* 暗模式链接下划线 */
+}
+
+.dark-mode .title{
+  color: #f0f0f0; 
+}
+
+/* 黑夜模式下.switch的样式 */
+.dark-mode .switch {
+  background-color: #333333; /* 暗色背景 */
+  box-shadow: 4px 4px 10px #222222, -4px -4px 10px #444444; /* 调整阴影以适应暗色背景 */
+}
+
+/* 黑夜模式下.switch_circle的样式 */
+.dark-mode .switch_circle {
+  background-color: #333333; /* 暗色背景 */
+  box-shadow: inset 8px 8px 12px #222222, inset -8px -8px 12px #444444; /* 内阴影调整以适应暗色背景 */
+}
